@@ -1,0 +1,10 @@
+prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library
+libdir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib
+includedir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/include
+
+Name: poppler
+Description: PDF rendering library
+Version: 22.12.0
+
+Libs: -L${libdir} -lpoppler
+Cflags: -I${includedir}/poppler

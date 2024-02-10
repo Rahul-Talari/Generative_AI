@@ -1,0 +1,11 @@
+prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library 
+exec_prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library 
+libdir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib 
+includedir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.10.4 
+Description: libXML library version2. 
+Requires: 
+Libs: -Lc:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib -lxml2 -liconv -lz 
+Cflags: -Ic:/Users/lenovo/Desktop/ATS tracking/venv/Library/include/libxml 

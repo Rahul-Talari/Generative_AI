@@ -1,0 +1,12 @@
+prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library
+exec_prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library
+libdir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib
+includedir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}
