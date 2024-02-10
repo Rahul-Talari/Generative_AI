@@ -1,0 +1,16 @@
+prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+sysconfdir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/etc
+localstatedir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/var
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.14.1
+Requires: freetype2 >=  21.0.15
+Libs: -L${libdir} -lfontconfig
+Libs.private: c:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib/expat.lib
+Cflags: -I${includedir}

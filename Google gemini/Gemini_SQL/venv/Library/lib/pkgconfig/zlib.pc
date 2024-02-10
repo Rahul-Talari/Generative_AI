@@ -1,0 +1,13 @@
+prefix=C:/Generative_AI/Google gemini/Gemini_SQL/venv/Library
+exec_prefix=C:/Generative_AI/Google gemini/Gemini_SQL/venv/Library
+libdir=C:/Generative_AI/Google gemini/Gemini_SQL/venv/Library/lib
+sharedlibdir=C:/Generative_AI/Google gemini/Gemini_SQL/venv/Library/lib
+includedir=C:/Generative_AI/Google gemini/Gemini_SQL/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
