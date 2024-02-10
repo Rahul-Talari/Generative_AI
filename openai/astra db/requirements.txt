@@ -1,0 +1,6 @@
+langchain
+streamlit
+pyPDF2
+cassio
+openai
+tiktoken

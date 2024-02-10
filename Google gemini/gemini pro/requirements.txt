@@ -1,0 +1,5 @@
+streamlit 
+google-generativeai
+PIL
+ipython
+# https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/tutorials/python_quickstart.ipynb?authuser=0&pli=1#scrollTo=zsIZmCYVTDHD

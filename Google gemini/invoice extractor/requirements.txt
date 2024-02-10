@@ -1,0 +1,6 @@
+langchain
+streamlit
+google-generativeai
+pyPDF2
+chromadb
+pil
