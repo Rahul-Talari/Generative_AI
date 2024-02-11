@@ -5,11 +5,15 @@
   ```conda create -p venv python=3.10 -y```
   
   After creating the virtual environment, proceed with the creation of essential files:
+  
     - constants.py: Contains the API key.
+  
     - main.py: Main application file.
+    
     - requirements.txt: Lists project dependencies.
 
  2.Running the Application
+  
   Execute the following command to run the application:
   
   ```streamlit run main.py```
