@@ -1,3 +1,17 @@
+## *Resume Expert Streamlit Application*
+1.Project Setup
+  To set up the virtual environment for building the project, run the following command:
+  ```conda create -p venv python=3.10 -y```
+  After creating the virtual environment, proceed with the creation of essential files:
+    - constants.py: Contains the API key.
+    - main.py: Main application file.
+    - requirements.txt: Lists project dependencies.
+
+ 2.Running the Application
+  Execute the following command to run the application:
+  ```streamlit run main.py```
+
+
 # Project Overview
 Job Application process is no doubt daunting process and resume is the document which represents ourselves to the HR's. When ever we apply for a job and we get a reject without any feedback feels sad right. So i took this as a motivation to my project I created an application using Google generative AI [GEMINI] and built an application where you can get your feedback, and what are the keywords that are missing in your Resume.
 
