@@ -41,15 +41,15 @@ version=2.69.1
 try_ln_s=:
 
 # Directory where the sources are stored.
-prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library
+prefix=C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library
 case `uname` in
 MINGW32*)
     prefix="`dirname $0`/.."
     ;;
 esac
 
-datarootdir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/share
-datadir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/share
+datarootdir=C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/share
+datadir=C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/share
 
 gettext_dir=$datadir/glib-2.0/gettext
 

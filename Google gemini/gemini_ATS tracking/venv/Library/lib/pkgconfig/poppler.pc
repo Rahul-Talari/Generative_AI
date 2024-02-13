@@ -1,6 +1,6 @@
-prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library
-libdir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib
-includedir=c:/Users/lenovo/Desktop/ATS tracking/venv/Library/include
+prefix=C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library
+libdir=C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/lib
+includedir=C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/include
 
 Name: poppler
 Description: PDF rendering library

@@ -130,7 +130,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\\\b\\\\abs_8d5_fdq9d2\\\\croot\\\\libpng_1677841684206\\\\_h_env",
         "sha256": "ab87ac95c0d1ba4f2a373e67ce3a3e3d19a3ae61e2ad13fc6e189d0a191c09ff",
-        "sha256_in_prefix": "44a5622041d5b44ea84a34649c40d3dc25ae813d9ea8e1569b8da5eeb7ac3b42",
+        "sha256_in_prefix": "ba6f6b33e2a14cdcf71c0e92abde44b91b0619a529047b79c85419697c3d7fb2",
         "size_in_bytes": 3681
       },
       {
@@ -160,7 +160,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/b/abs_8d5_fdq9d2/croot/libpng_1677841684206/_h_env",
         "sha256": "b0e0575bc7bdd5bc3cba8169837005565d13c4a5707cc103e6578515bfa5a1ea",
-        "sha256_in_prefix": "32fb6049d397b8c19fdfaf1f8fe4c15bb10d993e7f0fb78280c8251f657fa50b",
+        "sha256_in_prefix": "4755f0371bf2744b394f9e75d82827705331304fc901e4204f2f5f68da93e316",
         "size_in_bytes": 478
       },
       {
@@ -169,7 +169,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/b/abs_8d5_fdq9d2/croot/libpng_1677841684206/_h_env",
         "sha256": "b0e0575bc7bdd5bc3cba8169837005565d13c4a5707cc103e6578515bfa5a1ea",
-        "sha256_in_prefix": "32fb6049d397b8c19fdfaf1f8fe4c15bb10d993e7f0fb78280c8251f657fa50b",
+        "sha256_in_prefix": "4755f0371bf2744b394f9e75d82827705331304fc901e4204f2f5f68da93e316",
         "size_in_bytes": 478
       },
       {

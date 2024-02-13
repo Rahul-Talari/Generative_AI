@@ -15,10 +15,10 @@ mark_as_advanced(boost_graph_parallel_DIR)
 get_filename_component(_BOOST_CMAKEDIR "${CMAKE_CURRENT_LIST_DIR}/../" REALPATH)
 
 # If the computed and the original directories are symlink-equivalent, use original
-if(EXISTS "c:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib/cmake")
-  get_filename_component(_BOOST_CMAKEDIR_ORIGINAL "c:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib/cmake" REALPATH)
+if(EXISTS "C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/lib/cmake")
+  get_filename_component(_BOOST_CMAKEDIR_ORIGINAL "C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/lib/cmake" REALPATH)
   if(_BOOST_CMAKEDIR STREQUAL _BOOST_CMAKEDIR_ORIGINAL)
-    set(_BOOST_CMAKEDIR "c:/Users/lenovo/Desktop/ATS tracking/venv/Library/lib/cmake")
+    set(_BOOST_CMAKEDIR "C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/lib/cmake")
   endif()
   unset(_BOOST_CMAKEDIR_ORIGINAL)
 endif()

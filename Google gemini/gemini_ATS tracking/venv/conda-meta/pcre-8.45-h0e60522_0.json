@@ -153,7 +153,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/pcre_1623788775763/_h_env",
         "sha256": "3875f622a3aa07482808b4da8e83e7c85451849e15c495cff7c0b09150ac374d",
-        "sha256_in_prefix": "2e698bf83288f2183440e7018ebc8e3b9bd6dc17ac9b52cc2a757060bfacb3a6",
+        "sha256_in_prefix": "f2bd6b43322201e6163130f17a47b8e42faeff542ccc6db0a0410a8bd3edd9a6",
         "size_in_bytes": 2526
       },
       {
@@ -281,7 +281,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/pcre_1623788775763/_h_env",
         "sha256": "1ceb927bee185751607778ca09bb7223177c4e6822dbda76ded48c2cb8433a08",
-        "sha256_in_prefix": "34391b5ffbb65c9939576bbbf67f1337836cab14d88ee46e396cdbe4e64a4b44",
+        "sha256_in_prefix": "a5188d45567d5f05ba0a997b11de3094c04e06947c9d6263667634c97f3a6002",
         "size_in_bytes": 366
       },
       {
@@ -290,7 +290,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/pcre_1623788775763/_h_env",
         "sha256": "3d3eb92f20a31b05faee2e033c289dc048f917fc6f3bfeed8b5dda43ae3994c1",
-        "sha256_in_prefix": "d5ba1fc0df45aeb49a6db82f905932262a4a8efd87641296372bd56a1f5c2f3f",
+        "sha256_in_prefix": "3590602199415b268c580d4d0e56042c6c17aaf543dbdeeaa0222a3c36587405",
         "size_in_bytes": 311
       },
       {
@@ -299,7 +299,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/pcre_1623788775763/_h_env",
         "sha256": "ecf64a20e3686f095316bf664465a9775b1db49989c6b3b3d6b1951320f3195b",
-        "sha256_in_prefix": "cadaa421efc3978c96cde5354e5816e7c2d56f3a2e4a6db01363b84b499afab4",
+        "sha256_in_prefix": "95d955ce459b2ecc914a38288ee7f9d89584da3de9dc17579da85165706741ea",
         "size_in_bytes": 354
       },
       {
