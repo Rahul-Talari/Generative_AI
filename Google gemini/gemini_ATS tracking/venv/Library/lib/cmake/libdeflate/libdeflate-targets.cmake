@@ -60,7 +60,7 @@ add_library(libdeflate::libdeflate_shared SHARED IMPORTED)
 
 set_target_properties(libdeflate::libdeflate_shared PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "LIBDEFLATE_DLL"
-  INTERFACE_INCLUDE_DIRECTORIES "c:/Users/lenovo/Desktop/ATS tracking/venv/Library/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/include"
 )
 
 # Load information for each installed configuration.

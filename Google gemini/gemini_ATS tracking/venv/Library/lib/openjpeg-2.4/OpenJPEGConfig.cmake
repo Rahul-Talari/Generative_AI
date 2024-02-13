@@ -27,7 +27,7 @@ if(EXISTS ${SELF_DIR}/OpenJPEGTargets.cmake)
   # This is an install tree
   include(${SELF_DIR}/OpenJPEGTargets.cmake)
 
-  set(INC_DIR "c:/Users/lenovo/Desktop/ATS tracking/venv/Library/include/openjpeg-2.4")
+  set(INC_DIR "C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library/include/openjpeg-2.4")
   get_filename_component(OPENJPEG_INCLUDE_DIRS "${INC_DIR}" ABSOLUTE)
 
 else()

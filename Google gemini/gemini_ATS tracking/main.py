@@ -1,24 +1,30 @@
 from constants import api_key
+import base64
 import streamlit as st
 import os
-from PIL import Image
 import io
+from PIL import Image 
 import pdf2image
-import base64
 import google.generativeai as genai
 
 genai.configure(api_key=api_key)
-def get_gemini_response(input, pdf_content, prompt):
-    model = genai.GenerativeModel('gemini-pro-vision')
-    response = model.generate_content([input, pdf_content, prompt])
-    return response.text
+
+def get_gemini_response(input,pdf_cotent,prompt):
+    model=genai.GenerativeModel('gemini-pro-vision')
+    result=model.generate_content([input,pdf_content[0],prompt])
+    return result.parts[0].text if result.parts else "No text found in response."
+
+def gemini_response(input,pdf_cotent):
+    model=genai.GenerativeModel('gemini-pro-vision')
+    result=model.generate_content([input,pdf_content[0]])
+    return result.parts[0].text if result.parts else "No text found in response."
 
 def input_pdf_setup(uploaded_file):
     if uploaded_file is not None:
-        # Convert PDF to image
-        images = pdf2image.convert_from_bytes(uploaded_file.read())
-        # Take the first page for simplicity, or loop through images for all pages
-        first_page = images[0]
+        ## Convert the PDF to image
+        images=pdf2image.convert_from_bytes(uploaded_file.read())
+
+        first_page=images[0]
 
         # Convert to bytes
         img_byte_arr = io.BytesIO()
@@ -34,12 +40,11 @@ def input_pdf_setup(uploaded_file):
         return pdf_parts
     else:
         raise FileNotFoundError("No file uploaded")
-
 ## Streamlit App
 
 st.set_page_config(page_title="Resume Expert")
 st.header('Google Gemini Resume Reviewer🤖')
-input_text = st.text_input("Job Description: ", key="input")
+input_text=st.text_area("Job Description: ",key="input_text")
 uploaded_file = st.file_uploader("Upload your Resume(PDF)...", type=["pdf"])
 pdf_content = ""
 
@@ -115,14 +120,22 @@ elif submit4:
     else:
         st.write("Please upload a PDF file to proceed.")
 
+input=st.text_input("Ask Question: ",key="input")
+submit=st.button("get")
+if submit:
+    pdf_content = input_pdf_setup(uploaded_file)
+    response = gemini_response(input, pdf_content)
+    st.subheader("The Response is")
+    st.write(response)
+
 
 st.markdown("---")
 st.caption("Resume Expert - Making Job Applications Easier")
 
 
 
-# Data Transmission: 
-# When you're sending data over the internet, especially in web 
-# applications or APIs, it's common to encode binary data (like images) as base64. 
-# This is because base64-encoded data is represented as ASCII text, making it easier
-# to transmit through text-based protocols without worrying about binary data compatibility issues.
+   
+
+
+
+

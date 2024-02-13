@@ -1,3 +1,4 @@
+
 ## *Resume Expert Streamlit Application*
 1.Project Setup
   To set up the virtual environment for building the project, run the following command:
@@ -60,3 +61,4 @@ Job Application process is no doubt daunting process and resume is the document 
 
 ## Conclusion
 The Resume Expert Streamlit application stands as a significant tool in bridging the gap between job seekers and their ideal job roles. By harnessing the power of AI, it provides valuable insights and recommendations, making it a pivotal step in enhancing the job application process.
+>>>>>>> afef500329e1c8df3ae4eb98a9d5753d43776aae

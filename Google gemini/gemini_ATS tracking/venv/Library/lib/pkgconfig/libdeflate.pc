@@ -1,4 +1,4 @@
-prefix=c:/Users/lenovo/Desktop/ATS tracking/venv/Library
+prefix=C:/Generative_AI/Google gemini/gemini_ATS tracking/venv/Library
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib

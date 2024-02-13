@@ -53,14 +53,14 @@ endif()
 add_library(png SHARED IMPORTED)
 
 set_target_properties(png PROPERTIES
-  INTERFACE_LINK_LIBRARIES "c:/Users/lenovo/Desktop/ATS tracking/venv\\Library\\lib\\zlib.lib"
+  INTERFACE_LINK_LIBRARIES "C:/Generative_AI/Google gemini/gemini_ATS tracking/venv\\Library\\lib\\zlib.lib"
 )
 
 # Create imported target png_static
 add_library(png_static STATIC IMPORTED)
 
 set_target_properties(png_static PROPERTIES
-  INTERFACE_LINK_LIBRARIES "c:/Users/lenovo/Desktop/ATS tracking/venv\\Library\\lib\\zlib.lib"
+  INTERFACE_LINK_LIBRARIES "C:/Generative_AI/Google gemini/gemini_ATS tracking/venv\\Library\\lib\\zlib.lib"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
